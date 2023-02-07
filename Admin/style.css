@@ -1,0 +1,57 @@
+/* Dashboard CSS */
+.navbar{
+    position: sticky;
+}
+.nav-item{
+    padding-left: 20px;
+    padding: 10px;
+}
+#sidebar{
+    height: 30em;
+    border-radius: 0px 15px 15px 0px;
+    position: fixed;
+    width: 14em;
+    z-index: 9999;
+    background: linear-gradient(rgb(64, 32, 247),rgb(72, 111, 240),rgb(157, 180, 243)); 
+}
+#sidebar-brand{
+    color: rgb(238, 238, 238); 
+    background: linear-gradient(to right bottom, rgb(72, 111, 240) 50%, rgb(64, 32, 247) 50%); 
+    height: 65px; 
+    padding-top: 1em;
+    padding-left: 10px;
+    border-bottom: 2px solid rgb(184, 184, 184);
+    display: block; 
+    
+}
+.container-fluid{
+    padding: 0%;
+}
+.side-link{
+    color: rgb(255, 255, 255);
+    font-size: 14pt;
+    display: block;
+}
+.side-item{
+    height: 40px;
+    
+}
+.side-item:hover{
+    background: white; 
+    padding-left: 20px;
+}
+.jumbotron{
+    color: rgb(227, 229, 230);
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2pt;
+    margin-bottom: 2px;
+  }
+  .header{
+    padding: 10px;
+    border: 1px solid grey;
+    font-weight: 600;
+    background-image: linear-gradient(white,rgb(182, 191, 243));
+}
+
